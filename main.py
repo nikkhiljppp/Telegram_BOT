@@ -5,9 +5,6 @@ import os
 from bot import bot, dp, background_tasks
 from database import db
 
-# Load environment variables
-load_dotenv()
-
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
