@@ -1,7 +1,6 @@
 import asyncio
 import logging
 import os
-from dotenv import load_dotenv
 
 from bot import bot, dp, background_tasks
 from database import db
